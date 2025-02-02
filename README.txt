@@ -21,6 +21,17 @@ More advice can be found here: https://docs.python.org/3/library/venv.html#how-v
 
 To deactivate the venv you can type `deactivate`
 
+## Install Packages
+
+You will see the file `requirements.txt`. This file keeps track of all of the pip packages you want to install. Everything you want to install should be in this file.
+To install the packages you need, run the command:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install all of the dependencies in the requirements.txt.
+
 ## Run the main function
 
 ```bash
